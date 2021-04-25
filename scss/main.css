@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500; }
+
+h1 {
+  margin: 0;
+  line-height: 1; }
+
+header {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #002638; }
+  header h1 {
+    color: #F2E9D9; }
+
+header {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #002638;
+  align-items: center; }
+  header img {
+    width: 10rem; }
+  header h1 {
+    place-self: center;
+    font-size: 2.5rem; }
+  header h2 {
+    place-self: end;
+    color: #6BADA8;
+    letter-spacing: 2px;
+    font-size: 1.5rem; }
+
+.page-start body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: #fff; }
+.page-start main {
+  background-color: #002638;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem; }
+
+.page-rewards-login main {
+  background-color: black; }
+.page-rewards-login header {
+  display: grid; }
+
+.page-select-your-tickets body {
+  background-color: #fff;
+  height: 100vh; }
+.page-select-your-tickets main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr auto; }
+  .page-select-your-tickets main .left {
+    padding: 3rem 3rem;
+    display: grid;
+    grid-column: 1 / span 3; }
+    .page-select-your-tickets main .left h1 {
+      font-size: 2rem;
+      font-weight: 300; }
+    .page-select-your-tickets main .left p {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: #717070;
+      margin-top: .25rem; }
+  .page-select-your-tickets main .right {
+    display: grid;
+    grid-row: 1 / span 2;
+    grid-column: 4 / span 2;
+    justify-content: end;
+    z-index: 1; }
+    .page-select-your-tickets main .right img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      padding: 0;
+      margin: 0;
+      justify-self: end; }
+.page-select-your-tickets .footer {
+  padding: 2rem;
+  grid-row: 2;
+  grid-column: 1 / span 3;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: #002638;
+  align-items: center; }
+  .page-select-your-tickets .footer a {
+    font-size: 1.25rem;
+    color: #6BADA8;
+    border: 2px solid #6BADA8;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 0;
+    line-height: 3;
+    align-items: center;
+    text-align: center; }
+
+.page-order-summary body {
+  background-color: #fff;
+  height: 100vh; }
+.page-order-summary main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr; }
+  .page-order-summary main .left {
+    padding: 3rem 3rem;
+    display: grid;
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 3; }
+    .page-order-summary main .left h1 {
+      font-size: 2rem;
+      font-weight: 300; }
+    .page-order-summary main .left p {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: #717070;
+      margin: 0;
+      padding: 0;
+      line-height: 2; }
+  .page-order-summary main .right {
+    display: grid;
+    grid-row: 1 / span 2;
+    grid-column: 4 / span 2;
+    justify-content: end;
+    z-index: 1; }
+    .page-order-summary main .right img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      padding: 0;
+      margin: 0;
+      justify-self: end; }
+
+.page-payment body {
+  height: 100vh;
+  background-color: #002638; }
+.page-payment main {
+  background-color: #002638; }
+
+.page-select-your-movie body {
+  background-color: #fff;
+  height: 100vh; }
+.page-select-your-movie main {
+  padding: 2rem 3rem;
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr; }
+  .page-select-your-movie main .movie-info {
+    grid-column: 1 / span 2;
+    grid-row: 1; }
+    .page-select-your-movie main .movie-info h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300; }
+    .page-select-your-movie main .movie-info h3 {
+      font-weight: 300;
+      color: #717070;
+      margin: 1rem 0rem; }
+    .page-select-your-movie main .movie-info p {
+      font-weight: 300;
+      line-height: 1.5;
+      margin-bottom: 1.5rem; }
+    .page-select-your-movie main .movie-info a {
+      font-size: .9rem;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: .5rem 1rem;
+      background-color: #6BADA8;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 2rem; }
+  .page-select-your-movie main .movie-selection {
+    grid-column: 1 / span 3;
+    grid-row: 2; }
+    .page-select-your-movie main .movie-selection .card {
+      display: inline-block;
+      grid-template-columns: auto;
+      grid-template-rows: 1fr auto;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 2rem;
+      margin-right: 1rem;
+      align-self: start; }
+      .page-select-your-movie main .movie-selection .card .image {
+        width: 10rem;
+        height: 16rem;
+        align-self: start; }
+        .page-select-your-movie main .movie-selection .card .image img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          align-self: start; }
+      .page-select-your-movie main .movie-selection .card .text {
+        padding: 1rem 0rem; }
+        .page-select-your-movie main .movie-selection .card .text h1 {
+          font-size: 1.1rem;
+          line-height: 1;
+          font-weight: 500; }
+        .page-select-your-movie main .movie-selection .card .text p {
+          margin-top: .5rem;
+          font-size: .9rem;
+          font-weight: 300;
+          color: #afafaf; }
+
+/*# sourceMappingURL=main.css.map */

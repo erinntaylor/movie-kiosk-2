@@ -1,0 +1,24 @@
+	header{
+		padding:2rem;
+		display:grid;
+		grid-template-columns:1fr 1fr 1fr;
+		background-color:#002638;
+		align-items:center;
+
+		img{
+			width:10rem;
+		}
+
+		h1{
+			place-self:center;
+			font-size:2.5rem;
+		}
+
+		h2{
+			place-self:end;
+			color:#6BADA8;
+			letter-spacing:2px;
+			font-size:1.5rem;
+		}
+
+	}

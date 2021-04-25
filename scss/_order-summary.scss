@@ -1,0 +1,114 @@
+.page-order-summary{
+	body{
+		background-color:#fff;
+		height:100vh;
+	}
+
+
+	main{
+		display:grid;
+		grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows:1fr auto;
+
+		.left{
+			padding:3rem 3rem;
+			//display:grid;
+			//grid-row: 1 / span 2;
+			grid-column: 1 / span 3;
+
+
+		//Movie Title
+			h1 {
+				font-size:2rem;
+				font-weight:500;
+				line-height:1;
+				margin-bottom:0;
+			}
+
+			//Movie Title
+			h2 {
+				font-size:1.75rem;
+				font-weight:300;
+				//color:#717070;
+				margin:0;
+				padding:0;
+				line-height:1.5;
+			}
+
+			h3{
+				font-size:1.25rem;
+				font-weight:300;
+				line-height:1;
+				margin-bottom:0;
+				margin-top:2rem;
+			}
+
+			p{
+				font-size:1rem;
+				font-weight:300;
+				//color:#717070;
+				margin:0;
+				padding:0;
+				line-height:1.5;
+			}
+
+			.ticket-info{
+				display:grid;
+				grid-template-columns: auto 1fr;
+				grid-gap:3rem;
+			}
+
+			.total{
+				display:grid;
+				grid-template-columns: auto 1fr;
+				grid-gap:3rem;
+			}
+
+
+		}
+
+		.right{
+			display:grid;
+			grid-row: 1 / span 2;
+			grid-column: 4 / span 2;
+			justify-content:end;
+			z-index:1;
+
+			img{
+				height:100%;
+				width:100%;
+				object-fit:cover;
+				padding:0;
+				margin:0;
+				justify-self:end;
+			}
+		}
+	}
+
+
+	.footer{
+ 		padding:2rem;
+ 		grid-row:2;
+ 		grid-column:1 / span 3;
+ 		display:grid;
+ 		grid-gap:3rem;
+ 		grid-template-columns: 1fr 1fr 1fr;
+ 		grid-template-rows:1fr;
+ 		background-color:#002638;
+		align-items:center;
+
+		a{
+				font-size:1.25rem;
+				color:#6BADA8;
+				border: 2px solid #6BADA8;
+				text-decoration:none;
+				border-radius:5px;
+				margin-top:0;
+				line-height:3;
+				align-items:center;
+				text-align:center;
+
+		}
+ }
+
+}

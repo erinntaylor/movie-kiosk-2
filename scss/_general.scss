@@ -1,0 +1,28 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	//background-color:#002638;
+	height:100vh;
+}
+
+h1{
+	margin:0;
+	line-height:1;
+}
+
+header{
+		padding:2rem;
+		display:grid;
+		grid-template-columns:1fr 1fr 1fr;
+		background-color:#002638;
+
+		h1{
+			color:#F2E9D9;
+		}
+
+		
+	}
